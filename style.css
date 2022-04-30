@@ -211,7 +211,7 @@ h1,h2,h3 {
         gap: 1rem;
     }
     .campo:nth-child(3),.campo:nth-child(4),.campo:nth-child(5){
-        grid-column: 1/3;
+        grid-column: 1/3; /* Selecciona cada uno de los "hijos del contenedor para aplicar una regla */
     }
 }
 .campo {
@@ -233,6 +233,7 @@ h1,h2,h3 {
 .campo textarea{
     height: 20rem;
 }
+
 /*  footer */
 
 .footer{
